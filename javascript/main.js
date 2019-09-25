@@ -1,1 +1,8 @@
-console.log('Pizza Maker is Running')
+import cheese from './components/cheese.js';
+
+
+const init = () => {
+    cheese.printCheeseOpt();
+};
+
+init();
